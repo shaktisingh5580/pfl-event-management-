@@ -1,0 +1,44 @@
+# ── Core AI ──────────────────────────────────────────────
+openai>=1.30.0          # OpenRouter uses the OpenAI SDK interface
+crewai>=0.28.0          # Multi-agent orchestration
+crewai-tools>=0.1.0
+
+# ── Database ─────────────────────────────────────────────
+supabase>=2.4.0         # Supabase client (includes pgvector support)
+vecs>=0.4.0             # Supabase pgvector helper
+
+# ── Telegram Bot ──────────────────────────────────────────
+python-telegram-bot>=21.0.0   # Async Telegram Bot API
+
+# ── Image & PDF Generation ───────────────────────────────
+Pillow>=10.3.0          # Certificate stamping, overlays
+reportlab>=4.0.0        # PDF wrapping
+qrcode[pil]>=7.4.0     # QR code generation
+
+# ── Media & Branding ─────────────────────────────────────
+cloudinary>=1.39.0      # Image transformation overlays
+
+# ── Face Recognition ─────────────────────────────────────
+deepface>=0.0.86        # Local face recognition (no API key needed)
+opencv-python>=4.9.0.80 # Required by deepface
+
+# ── Web & APIs ───────────────────────────────────────────
+requests>=2.31.0
+httpx>=0.27.0
+PyGithub>=2.3.0         # GitHub repo creation & push
+
+# ── Utilities ────────────────────────────────────────────
+python-dotenv>=1.0.0    # .env file loading
+jinja2>=3.1.4           # Template rendering for DM messages
+pandas>=2.2.0           # Data manipulation for reports
+numpy>=1.26.0
+python-multipart>=0.0.9
+
+# ── Document & Text ──────────────────────────────────────
+markdown>=3.6           # Markdown to text conversion
+fpdf2>=2.7.9            # Lightweight PDF alternative
+PyPDF2>=3.0.0           # PDF text extraction for Knowledge Base
+
+# ── SaaS Backend API ─────────────────────────────────────
+fastapi>=0.109.0        # Web dashboard API wrapper
+uvicorn>=0.27.0         # ASGI Server for FastAPI

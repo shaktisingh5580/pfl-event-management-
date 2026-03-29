@@ -1,0 +1,179 @@
+{
+  "templates": [
+    {
+      "id": "techfest",
+      "name": "TechFest / Technical Festival",
+      "icon": "🎓",
+      "description": "Multi-day college technical festival with hackathon, coding contests, paper presentations, and expo.",
+      "event_type": "Technical Festival",
+      "theme": "Technology & Innovation",
+      "required_fields": [
+        "College name and department organizing it",
+        "Number of technical events (hackathon, coding, project expo, etc.)",
+        "Total expected participants",
+        "Venue halls and their capacities",
+        "Prize pool budget in INR",
+        "Event dates and duration (1 day / 2 days / 3 days)",
+        "Sub-events list with max participants each",
+        "Coordinators and faculty in-charges",
+        "Registration fee (if any)",
+        "Judgment panel details"
+      ],
+      "default_schedule": [
+        {"time": "08:00", "duration_mins": 60, "activity": "Participant Registration & Check-In", "location": "Main Gate", "coordinator": "TBD", "notes": "Scan QR codes at entry"},
+        {"time": "09:00", "duration_mins": 45, "activity": "Inauguration Ceremony", "location": "Main Auditorium", "coordinator": "TBD", "notes": "Chief guest, lamp lighting"},
+        {"time": "10:00", "duration_mins": 180, "activity": "Hackathon Round 1", "location": "Lab Complex", "coordinator": "TBD", "notes": ""},
+        {"time": "10:00", "duration_mins": 120, "activity": "Coding Contest", "location": "Computer Lab A", "coordinator": "TBD", "notes": ""},
+        {"time": "13:00", "duration_mins": 60, "activity": "Lunch Break", "location": "Canteen", "coordinator": "TBD", "notes": "Food coupons distributed"},
+        {"time": "14:00", "duration_mins": 180, "activity": "Hackathon Round 2 / Project Expo", "location": "Lab Complex & Hall B", "coordinator": "TBD", "notes": ""},
+        {"time": "17:00", "duration_mins": 60, "activity": "Prize Distribution & Valedictory", "location": "Main Auditorium", "coordinator": "TBD", "notes": ""}
+      ],
+      "custom_registration_fields_hint": [
+        {"field_name": "participating_events", "display_label": "Events Participating In", "field_type": "dropdown", "options": ["Hackathon", "Coding Contest", "Paper Presentation", "Project Expo", "Multiple"]},
+        {"field_name": "team_name", "display_label": "Team Name", "field_type": "text", "options": []},
+        {"field_name": "tshirt_size", "display_label": "T-Shirt Size", "field_type": "dropdown", "options": ["XS", "S", "M", "L", "XL", "XXL"]}
+      ]
+    },
+    {
+      "id": "hackathon",
+      "name": "Hackathon",
+      "icon": "💻",
+      "description": "Intensive 24 or 36-hour coding competition where teams build projects around a theme.",
+      "event_type": "Hackathon",
+      "theme": "Build. Break. Innovate.",
+      "required_fields": [
+        "Hackathon duration (12h / 24h / 36h / 48h)",
+        "Problem statement categories (AI/ML, Web3, HealthTech, etc.)",
+        "Team size (solo / 2-4 members)",
+        "Venue and room allocation",
+        "Judging criteria weights (Innovation, Feasibility, Presentation, etc.)",
+        "Mentor availability schedule",
+        "Submission platform (DevPost, GitHub, etc.)",
+        "Prizes per track",
+        "Meals and refreshments plan",
+        "Hardware hackathon: equipment/hardware provided"
+      ],
+      "default_schedule": [
+        {"time": "09:00", "duration_mins": 60, "activity": "Registration & Kit Distribution", "location": "Main Hall", "coordinator": "TBD", "notes": ""},
+        {"time": "10:00", "duration_mins": 30, "activity": "Opening Ceremony & Problem Statement Reveal", "location": "Auditorium", "coordinator": "TBD", "notes": ""},
+        {"time": "10:30", "duration_mins": 780, "activity": "Hacking Phase Begins", "location": "Lab Rooms", "coordinator": "TBD", "notes": "Teams work on their projects"},
+        {"time": "13:00", "duration_mins": 60, "activity": "Lunch", "location": "Canteen", "coordinator": "TBD", "notes": ""},
+        {"time": "16:00", "duration_mins": 30, "activity": "Mentor Rounds", "location": "All Rooms", "coordinator": "TBD", "notes": ""},
+        {"time": "22:30", "duration_mins": 30, "activity": "Submission Deadline & Freeze", "location": "Online", "coordinator": "TBD", "notes": "Push to GitHub/DevPost"},
+        {"time": "09:00", "duration_mins": 120, "activity": "Judging & Presentations", "location": "Main Hall", "coordinator": "TBD", "notes": ""},
+        {"time": "12:00", "duration_mins": 90, "activity": "Prize Distribution", "location": "Auditorium", "coordinator": "TBD", "notes": ""}
+      ],
+      "custom_registration_fields_hint": [
+        {"field_name": "team_name", "display_label": "Team Name", "field_type": "text", "options": []},
+        {"field_name": "problem_track", "display_label": "Preferred Problem Track", "field_type": "dropdown", "options": ["AI/ML", "Web/App", "IoT/Hardware", "Blockchain", "Open Innovation"]},
+        {"field_name": "tshirt_size", "display_label": "T-Shirt Size", "field_type": "dropdown", "options": ["S", "M", "L", "XL", "XXL"]},
+        {"field_name": "dietary_pref", "display_label": "Dietary Preference", "field_type": "dropdown", "options": ["Veg", "Non-Veg", "Vegan", "No preference"]}
+      ]
+    },
+    {
+      "id": "cultural_fest",
+      "name": "Cultural Fest / Annual Day",
+      "icon": "🎭",
+      "description": "Annual cultural celebration with dance, music, drama, fashion shows, and arts competitions.",
+      "event_type": "Cultural Festival",
+      "theme": "Celebrate Culture & Creativity",
+      "required_fields": [
+        "Cultural events list (dance, music, drama, fashion, solo singing, etc.)",
+        "Stage setup and lighting plan",
+        "Number of performing groups/solos",
+        "Chief guest and judges",
+        "Food stalls plan",
+        "Backstage coordinator details",
+        "Ticket pricing (paid event?)",
+        "Duration and date",
+        "Audience capacity",
+        "DJ/Music arrangement"
+      ],
+      "default_schedule": [
+        {"time": "16:00", "duration_mins": 30, "activity": "Gates Open & Audience Seating", "location": "Auditorium", "coordinator": "TBD", "notes": ""},
+        {"time": "16:30", "duration_mins": 30, "activity": "Inauguration & Welcome Speech", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "17:00", "duration_mins": 60, "activity": "Group Dance Performances", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "18:00", "duration_mins": 45, "activity": "Solo Singing & Music", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "18:45", "duration_mins": 30, "activity": "Drama / Skit", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "19:30", "duration_mins": 45, "activity": "Fashion Show", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "20:15", "duration_mins": 30, "activity": "Prize Distribution", "location": "Main Stage", "coordinator": "TBD", "notes": ""},
+        {"time": "20:45", "duration_mins": 60, "activity": "DJ Night / Star Performance", "location": "Open Ground", "coordinator": "TBD", "notes": ""}
+      ],
+      "custom_registration_fields_hint": [
+        {"field_name": "performing_in", "display_label": "Performing In", "field_type": "dropdown", "options": ["Group Dance", "Solo Singing", "Drama", "Fashion Show", "Instrumental", "Just Attending"]},
+        {"field_name": "performance_name", "display_label": "Performance/Act Name", "field_type": "text", "options": []}
+      ]
+    },
+    {
+      "id": "sports_event",
+      "name": "Sports Event / Tournament",
+      "icon": "🏏",
+      "description": "Sports tournament (Cricket, Football, Basketball, Volleyball, etc.) with brackets and knockout rounds.",
+      "event_type": "Sports Tournament",
+      "theme": "Play Hard. Win Harder.",
+      "required_fields": [
+        "Sport(s) being played",
+        "Tournament format (knockout / round-robin / league)",
+        "Number of teams and team sizes",
+        "Ground / court locations",
+        "Referee and volunteer count",
+        "Match schedule duration",
+        "Prizes and trophies",
+        "Equipment provided vs participant brings",
+        "Medical / first-aid arrangement",
+        "Food and refreshment stalls"
+      ],
+      "default_schedule": [
+        {"time": "08:00", "duration_mins": 60, "activity": "Team Registration & Ground Allocation", "location": "Main Ground", "coordinator": "TBD", "notes": ""},
+        {"time": "09:00", "duration_mins": 30, "activity": "Opening Ceremony & Coin Toss", "location": "Main Ground", "coordinator": "TBD", "notes": ""},
+        {"time": "09:30", "duration_mins": 120, "activity": "Quarter Final Matches", "location": "Multiple Grounds", "coordinator": "TBD", "notes": ""},
+        {"time": "12:00", "duration_mins": 60, "activity": "Lunch Break", "location": "Canteen", "coordinator": "TBD", "notes": ""},
+        {"time": "13:00", "duration_mins": 120, "activity": "Semi Final Matches", "location": "Main Ground", "coordinator": "TBD", "notes": ""},
+        {"time": "15:30", "duration_mins": 30, "activity": "Break & Warm-up", "location": "Ground", "coordinator": "TBD", "notes": ""},
+        {"time": "16:00", "duration_mins": 120, "activity": "Grand Final Match", "location": "Main Ground", "coordinator": "TBD", "notes": ""},
+        {"time": "18:30", "duration_mins": 45, "activity": "Prize Distribution & Closing", "location": "Main Ground", "coordinator": "TBD", "notes": ""}
+      ],
+      "custom_registration_fields_hint": [
+        {"field_name": "team_name", "display_label": "Team Name", "field_type": "text", "options": []},
+        {"field_name": "sport", "display_label": "Sport", "field_type": "dropdown", "options": ["Cricket", "Football", "Basketball", "Volleyball", "Badminton", "Table Tennis", "Chess"]},
+        {"field_name": "jersey_number", "display_label": "Jersey/Player Number", "field_type": "number", "options": []}
+      ]
+    },
+    {
+      "id": "conference",
+      "name": "Conference / Seminar",
+      "icon": "🎤",
+      "description": "Academic or industry conference with keynote speakers, paper presentations, workshops, and panel discussions.",
+      "event_type": "Conference",
+      "theme": "Knowledge. Network. Inspire.",
+      "required_fields": [
+        "Conference theme/track topics",
+        "Keynote speakers and their topics",
+        "Paper submission / presentation format",
+        "Workshop topics and capacity",
+        "Registration tiers (student / faculty / industry)",
+        "Session chairs and moderators",
+        "Accommodation and travel assistance",
+        "Proceedings / certificate of presentation",
+        "Venue hall and breakout room setup",
+        "Networking sessions plan"
+      ],
+      "default_schedule": [
+        {"time": "08:30", "duration_mins": 30, "activity": "Registration & Welcome Kit", "location": "Lobby", "coordinator": "TBD", "notes": ""},
+        {"time": "09:00", "duration_mins": 30, "activity": "Inauguration", "location": "Main Hall", "coordinator": "TBD", "notes": ""},
+        {"time": "09:30", "duration_mins": 90, "activity": "Keynote Address — Speaker 1", "location": "Main Hall", "coordinator": "TBD", "notes": ""},
+        {"time": "11:00", "duration_mins": 30, "activity": "Tea Break & Networking", "location": "Lobby", "coordinator": "TBD", "notes": ""},
+        {"time": "11:30", "duration_mins": 90, "activity": "Paper Presentations — Session 1", "location": "Hall A & Hall B", "coordinator": "TBD", "notes": ""},
+        {"time": "13:00", "duration_mins": 60, "activity": "Lunch", "location": "Cafeteria", "coordinator": "TBD", "notes": ""},
+        {"time": "14:00", "duration_mins": 120, "activity": "Workshop Sessions", "location": "Labs", "coordinator": "TBD", "notes": ""},
+        {"time": "16:00", "duration_mins": 60, "activity": "Panel Discussion", "location": "Main Hall", "coordinator": "TBD", "notes": ""},
+        {"time": "17:00", "duration_mins": 30, "activity": "Certificate Distribution & Closing", "location": "Main Hall", "coordinator": "TBD", "notes": ""}
+      ],
+      "custom_registration_fields_hint": [
+        {"field_name": "attendee_type", "display_label": "Attendee Type", "field_type": "dropdown", "options": ["Student", "Faculty", "Industry Professional", "Researcher"]},
+        {"field_name": "paper_submission", "display_label": "Submitting a Paper?", "field_type": "dropdown", "options": ["Yes - Oral Presentation", "Yes - Poster Presentation", "No - Attending Only"]},
+        {"field_name": "workshop_pref", "display_label": "Workshop Preference", "field_type": "text", "options": []}
+      ]
+    }
+  ]
+}

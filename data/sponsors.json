@@ -1,0 +1,252 @@
+{
+  "sponsors": [
+    {
+      "company": "JetBrains",
+      "industry": "Developer Tools",
+      "type": "Technology",
+      "contact_email": "sponsorship@jetbrains.com",
+      "phone": "",
+      "website": "https://www.jetbrains.com",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Gold",
+      "notes": "Provides free IDE licenses for hackathon winners and participants"
+    },
+    {
+      "company": "GitHub Education",
+      "industry": "Developer Platform",
+      "type": "Technology",
+      "contact_email": "education@github.com",
+      "phone": "",
+      "website": "https://education.github.com",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Gold",
+      "notes": "GitHub Student Developer Pack, free Pro accounts, swag kits"
+    },
+    {
+      "company": "Postman",
+      "industry": "API Tools",
+      "type": "Technology",
+      "contact_email": "students@postman.com",
+      "phone": "",
+      "website": "https://www.postman.com",
+      "relevant_for": ["hackathon", "techfest"],
+      "tier_typically": "Silver",
+      "notes": "Swag, t-shirts, stickers for hackathon participants"
+    },
+    {
+      "company": "Devfolio",
+      "industry": "Hackathon Platform",
+      "type": "Technology",
+      "contact_email": "hello@devfolio.co",
+      "phone": "",
+      "website": "https://devfolio.co",
+      "relevant_for": ["hackathon"],
+      "tier_typically": "Silver",
+      "notes": "Hackathon hosting platform, ENS domains, cash prizes for top teams"
+    },
+    {
+      "company": "MLH (Major League Hacking)",
+      "industry": "Student Hackathons",
+      "type": "Technology",
+      "contact_email": "league@mlh.io",
+      "phone": "",
+      "website": "https://mlh.io",
+      "relevant_for": ["hackathon"],
+      "tier_typically": "Gold",
+      "notes": "Official MLH partner hackathon branding, prize pool, hardware lab"
+    },
+    {
+      "company": "Reliance Jio",
+      "industry": "Telecom",
+      "type": "Corporate",
+      "contact_email": "support@jio.com",
+      "phone": "+91-1800-889-9999",
+      "website": "https://www.jio.com",
+      "relevant_for": ["techfest", "cultural_fest", "sports_event", "conference"],
+      "tier_typically": "Gold",
+      "notes": "Local telecom giant, good for college events in India"
+    },
+    {
+      "company": "HDFC Bank",
+      "industry": "Banking & Finance",
+      "type": "Corporate",
+      "contact_email": "sponsorship@hdfcbank.com",
+      "phone": "+91-22-6652-1000",
+      "website": "https://www.hdfcbank.com",
+      "relevant_for": ["techfest", "cultural_fest", "conference"],
+      "tier_typically": "Gold",
+      "notes": "Active in college event sponsorships across India"
+    },
+    {
+      "company": "PhonePe",
+      "industry": "Fintech",
+      "type": "Technology",
+      "contact_email": "campus@phonepe.com",
+      "phone": "",
+      "website": "https://www.phonepe.com",
+      "relevant_for": ["hackathon", "techfest"],
+      "tier_typically": "Silver",
+      "notes": "Fintech-focused prizes and branding opportunities"
+    },
+    {
+      "company": "Unstop (formerly D2C)",
+      "industry": "Student Competitions",
+      "type": "Platform",
+      "contact_email": "partnerships@unstop.com",
+      "phone": "",
+      "website": "https://unstop.com",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Silver",
+      "notes": "Competition listings, participant reach, prizes"
+    },
+    {
+      "company": "GeeksForGeeks",
+      "industry": "EdTech",
+      "type": "Technology",
+      "contact_email": "partnerships@geeksforgeeks.org",
+      "phone": "",
+      "website": "https://www.geeksforgeeks.org",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Silver",
+      "notes": "Course vouchers, coding contest prizes, branding"
+    },
+    {
+      "company": "Internshala",
+      "industry": "EdTech / Internships",
+      "type": "Platform",
+      "contact_email": "campus@internshala.com",
+      "phone": "+91-124-4729000",
+      "website": "https://internshala.com",
+      "relevant_for": ["techfest", "hackathon", "conference"],
+      "tier_typically": "Bronze",
+      "notes": "Internship opportunities for top performers, training vouchers"
+    },
+    {
+      "company": "Nykaa",
+      "industry": "Fashion & Beauty",
+      "type": "Corporate",
+      "contact_email": "pr@nykaa.com",
+      "phone": "",
+      "website": "https://www.nykaa.com",
+      "relevant_for": ["cultural_fest"],
+      "tier_typically": "Gold",
+      "notes": "Perfect for cultural fests, fashion shows, annual days"
+    },
+    {
+      "company": "Zomato",
+      "industry": "Food Delivery",
+      "type": "Corporate",
+      "contact_email": "campus@zomato.com",
+      "phone": "",
+      "website": "https://www.zomato.com",
+      "relevant_for": ["techfest", "hackathon", "cultural_fest", "sports_event"],
+      "tier_typically": "Silver",
+      "notes": "Food credits, vouchers, branded food stalls on-site"
+    },
+    {
+      "company": "Swiggy",
+      "industry": "Food Delivery",
+      "type": "Corporate",
+      "contact_email": "campus@swiggy.in",
+      "phone": "",
+      "website": "https://www.swiggy.com",
+      "relevant_for": ["techfest", "hackathon", "cultural_fest", "sports_event"],
+      "tier_typically": "Silver",
+      "notes": "Meal sponsorships, Swiggy credits for participants"
+    },
+    {
+      "company": "boAt Lifestyle",
+      "industry": "Consumer Electronics",
+      "type": "Corporate",
+      "contact_email": "sponsorships@boat-lifestyle.com",
+      "phone": "",
+      "website": "https://www.boat-lifestyle.com",
+      "relevant_for": ["techfest", "cultural_fest", "hackathon", "sports_event"],
+      "tier_typically": "Gold",
+      "notes": "Popular electronics brand great for prizes (earbuds, smartwatches)"
+    },
+    {
+      "company": "Noise",
+      "industry": "Consumer Electronics",
+      "type": "Corporate",
+      "contact_email": "campus@gonoise.com",
+      "phone": "",
+      "website": "https://www.gonoise.com",
+      "relevant_for": ["techfest", "hackathon", "sports_event"],
+      "tier_typically": "Silver",
+      "notes": "Smartwatch and earbuds brand, good for tech prizes"
+    },
+    {
+      "company": "Red Bull India",
+      "industry": "Energy Drinks",
+      "type": "FMCG",
+      "contact_email": "redbull.india@at.redbull.com",
+      "phone": "",
+      "website": "https://www.redbull.com",
+      "relevant_for": ["hackathon", "sports_event", "cultural_fest"],
+      "tier_typically": "Bronze",
+      "notes": "Free cans during hackathon, activation stalls"
+    },
+    {
+      "company": "Puma India",
+      "industry": "Sports & Fashion",
+      "type": "Corporate",
+      "contact_email": "india@puma.com",
+      "phone": "",
+      "website": "https://in.puma.com",
+      "relevant_for": ["sports_event", "cultural_fest"],
+      "tier_typically": "Gold",
+      "notes": "Jerseys, sports gear, merchandise for sports events"
+    },
+    {
+      "company": "Adidas India",
+      "industry": "Sports & Fashion",
+      "type": "Corporate",
+      "contact_email": "consumer.services@adidas.com",
+      "phone": "+91-124-4554200",
+      "website": "https://www.adidas.co.in",
+      "relevant_for": ["sports_event", "cultural_fest"],
+      "tier_typically": "Gold",
+      "notes": "Sports gear, trophies, branded merchandise"
+    },
+    {
+      "company": "Amazon Web Services (AWS)",
+      "industry": "Cloud Computing",
+      "type": "Technology",
+      "contact_email": "aws-edu@amazon.com",
+      "phone": "",
+      "website": "https://aws.amazon.com/education",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Platinum",
+      "notes": "AWS credits for hackathon teams, cloud infrastructure support"
+    },
+    {
+      "company": "Google Cloud",
+      "industry": "Cloud Computing",
+      "type": "Technology",
+      "contact_email": "gcp-edu@google.com",
+      "phone": "",
+      "website": "https://cloud.google.com/edu",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Platinum",
+      "notes": "GCP credits, Google Cloud skills badges, expert mentors"
+    },
+    {
+      "company": "Microsoft Azure",
+      "industry": "Cloud Computing",
+      "type": "Technology",
+      "contact_email": "azureforeducation@microsoft.com",
+      "phone": "",
+      "website": "https://azure.microsoft.com/education",
+      "relevant_for": ["hackathon", "techfest", "conference"],
+      "tier_typically": "Platinum",
+      "notes": "Azure credits, Microsoft Learn paths, expert sessions"
+    }
+  ],
+  "tiers": {
+    "Platinum": {"min_contribution_inr": 100000, "benefits": ["Logo on all materials", "Stage banner", "Chief sponsor announcement", "Full page in brochure", "5 complimentary passes"]},
+    "Gold": {"min_contribution_inr": 50000, "benefits": ["Logo on banners", "Half page in brochure", "3 complimentary passes", "Social media mentions"]},
+    "Silver": {"min_contribution_inr": 20000, "benefits": ["Logo on website", "Quarter page in brochure", "2 complimentary passes"]},
+    "Bronze": {"min_contribution_inr": 10000, "benefits": ["Logo on website", "1 complimentary pass", "Mention in opening ceremony"]}
+  }
+}

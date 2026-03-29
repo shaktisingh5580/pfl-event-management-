@@ -1,0 +1,12 @@
+{
+    "python.defaultInterpreterPath": "C:\\Python310\\python.exe",
+    "python.analysis.extraPaths": [".", "C:\\Python310\\lib\\site-packages"],
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none",
+        "reportGeneralTypeIssues": "none",
+        "reportOptionalMemberAccess": "none",
+        "reportArgumentType": "none"
+    }
+}

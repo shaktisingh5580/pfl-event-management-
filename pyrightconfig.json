@@ -1,0 +1,16 @@
+{
+  "include": ["."],
+  "extraPaths": [".", "C:\\Python310\\lib\\site-packages"],
+  "pythonPath": "C:\\Python310\\python.exe",
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "off",
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportGeneralTypeIssues": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalSubscript": false,
+  "reportArgumentType": false,
+  "reportCallIssue": false,
+  "reportIndexIssue": false,
+  "reportOperatorIssue": false
+}
